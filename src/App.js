@@ -7,7 +7,8 @@ function App() {
   const [light, setLight] = useState(false);
 
   return (
-    <div className={`App ${light && "light"}`}>
+    <div className={`App ${light ? "light" : ""}`}>
+      <div className="bg-image"></div>
       <Todo light={light} setLight={setLight} />
     </div>
   );

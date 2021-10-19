@@ -29,7 +29,7 @@ button {
 }
 
 .App {
-  max-width: 1440px;
+  /* max-width: 1440px; */
   width: 100vw;
   height: 100vh;
 
@@ -47,31 +47,21 @@ button {
   background-color: rgb(232, 232, 236);
 }
 
-.App::before {
-  content: "";
-
-  height: 38vh;
+.App .bg-image {
   width: 100%;
 
+  margin-inline: auto;
+
+  height: 250px;
+  width: 100vw;
+
   position: absolute;
-  top: 0;
-  left: 0;
 
   background-image: url("./assets/bg-desktop-dark.jpg");
-  background: linear-gradient hsl(192, 100%, 67%) to hsl(280, 87%, 65%);
   background-repeat: no-repeat;
+  background-position: center;
 }
 
-.App.light::before {
-  content: "";
-  height: 38vh;
-  width: 100%;
-
-  position: absolute;
-  top: 0;
-  left: 0;
-
+.App.light .bg-image {
   background-image: url("./assets/bg-desktop-light.jpg");
-  background: linear-gradient hsl(192, 100%, 67%) to hsl(280, 87%, 65%);
-  background-repeat: no-repeat;
 }

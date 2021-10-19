@@ -3,9 +3,9 @@
   justify-content: space-between;
   align-items: center;
 
-  padding: 7px 15px;
+  padding: 12px 15px;
 
-  font-size: 0.6rem;
+  font-size: 0.7rem;
 
   color: inherit;
 
@@ -16,7 +16,7 @@
 .filter-wrapper span {
   cursor: pointer;
 
-  padding: 3px;
+  padding: 5px;
 
   transition: 0.3s;
 }

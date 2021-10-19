@@ -1,5 +1,10 @@
 .tasks-wrapper {
+  min-height: 120px;
   border-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
   margin: 0;
   padding: 0;
@@ -80,5 +85,5 @@
 
   color: rgb(79, 83, 120);
 
-  padding: 15px 0;
+  padding: 25px 0;
 }
