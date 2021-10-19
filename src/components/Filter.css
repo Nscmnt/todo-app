@@ -1,0 +1,42 @@
+.filter-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 7px 15px;
+
+  font-size: 0.6rem;
+
+  color: inherit;
+
+  border-radius: 8px;
+  background-color: inherit;
+}
+
+.filter-wrapper span {
+  cursor: pointer;
+
+  padding: 3px;
+
+  transition: 0.3s;
+}
+
+.filter-wrapper span:hover {
+  color: rgb(123, 126, 156);
+
+  text-shadow: 0 0 1px rgb(80, 92, 199);
+}
+
+.tasks-filtered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tasks-cleanup {
+  cursor: pointer;
+}
+
+.tasks-cleanup:hover {
+  text-shadow: 0 0 1px rgb(221, 97, 97);
+}

@@ -1,0 +1,84 @@
+.tasks-wrapper {
+  border-radius: 5px;
+
+  margin: 0;
+  padding: 0;
+
+  color: rgb(188, 190, 207);
+  background-color: rgb(37, 39, 60);
+}
+
+.tasks-wrapper.light {
+  background-color: rgb(207, 207, 211);
+
+  color: rgb(44, 44, 48);
+}
+
+.todo-wrapper {
+  display: flex;
+  align-items: center;
+
+  background-color: inherit;
+
+  list-style: none;
+
+  border-radius: 5px 5px 0 0;
+
+  border-bottom: 1px solid #4a4d62;
+}
+
+.todo-check-wrapper {
+  width: 10%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-check-wrapper.check > div {
+  background: linear-gradient(45deg, #658eb8, #9879da);
+}
+
+.todo-check {
+  width: 18px;
+  height: 18px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+
+  border: 1px solid rgb(77, 80, 102);
+
+  cursor: pointer;
+}
+
+.todo-check-wrapper.check + .todo-task {
+  color: #494c61;
+  text-decoration: line-through;
+}
+
+.todo-task {
+  width: 90%;
+  height: max-content;
+
+  padding: 15px;
+
+  word-wrap: break-word;
+  border-radius: 5px 5px 0 0;
+
+  font-size: 0.852rem;
+  color: inherit;
+  background-color: inherit;
+}
+
+.empty-todo {
+  text-align: center;
+
+  font-size: 0.852rem;
+
+  color: rgb(79, 83, 120);
+
+  padding: 15px 0;
+}

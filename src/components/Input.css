@@ -1,0 +1,29 @@
+.input-wrapper {
+  margin-bottom: 20px;
+
+  display: flex;
+  align-items: center;
+
+  border-radius: 5px;
+
+  background-color: inherit;
+}
+
+.todo-input {
+  width: 100%;
+
+  padding: 15px;
+
+  font-size: 0.852rem;
+  color: rgb(202, 205, 232);
+  background-color: rgb(37, 39, 60);
+
+  border-radius: 5px;
+
+  outline: none;
+}
+
+.todo-input.light {
+  color: rgb(44, 44, 48);
+  background-color: rgb(207, 207, 211);
+}

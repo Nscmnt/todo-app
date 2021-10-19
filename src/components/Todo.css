@@ -1,0 +1,29 @@
+.todo-app {
+  max-width: 500px;
+  width: 90vw;
+
+  margin-inline: auto;
+
+  margin: 50px 0 30px 0;
+
+  position: absolute;
+}
+.todo-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-title {
+  color: aliceblue;
+
+  font-weight: 700;
+}
+
+.toggle-theme {
+  display: block;
+
+  padding: 5px;
+
+  cursor: pointer;
+}
