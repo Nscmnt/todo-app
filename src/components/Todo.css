@@ -1,5 +1,5 @@
 .todo-app {
-  max-width: 500px;
+  max-width: 800px;
   width: 90vw;
 
   margin-inline: auto;
@@ -18,6 +18,8 @@
   color: aliceblue;
 
   font-weight: 700;
+
+  font-size: 3rem;
 }
 
 .toggle-theme {

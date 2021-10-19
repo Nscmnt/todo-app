@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-html {
+:root {
   font-size: 18px;
 }
 
@@ -64,4 +64,10 @@ button {
 
 .App.light .bg-image {
   background-image: url("./assets/bg-desktop-light.jpg");
+}
+
+@media screen and (min-width: 1450px) {
+  :root {
+    font-size: 22px;
+  }
 }
