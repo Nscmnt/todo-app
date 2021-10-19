@@ -7,7 +7,7 @@
 <p align="center">App TODO LIST, crie tarefas e organize seu dia, realize filtros nas suas tarefas e apague as que ja estão concluidas.
 </p><p align ="center"> Desenvolvindo com base no desafio do site FrontEnd Mentor </p>
 
-<p align ="center">Live:</p>
+<p align ="center">Live: https://todo-app-mu-sepia.vercel.app/</p>
 
 <p align = "center">
   <a href="#pre"> Pré-requisito </a> •
