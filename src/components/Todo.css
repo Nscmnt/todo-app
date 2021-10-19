@@ -1,5 +1,6 @@
 .todo-app {
-  max-width: 750px;
+  max-width: 700px;
+
   width: 90vw;
 
   margin-inline: auto;
@@ -28,4 +29,10 @@
   padding: 5px;
 
   cursor: pointer;
+}
+
+@media screen and (min-width: 1450px) {
+  .todo-app {
+    max-width: 900px;
+  }
 }
